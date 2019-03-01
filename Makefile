@@ -1,7 +1,7 @@
 PREFIX?=/usr/local
 BINPREFIX?=$(PREFIX)/bin
 LIBPREFIX?=$(PREFIX)/lib/fulgurate
-MANPREFIX?=$(PREFIX)/man
+MANPREFIX?=$(PREFIX)/share/man
 DOCPREFIX?=$(PREFIX)/share/doc/fulgurate
 
 PROGS=$(addprefix fulgurate-, run import show-schedule)
